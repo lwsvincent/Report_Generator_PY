@@ -1,0 +1,11 @@
+[project]
+authors = [{name = "Vincent Lee", email = "lws.vincent@hotmail.com"}] 
+description = "report generator for python version, but dll is construct from report gen C# project" # 套件描述
+# license = {file = "LICENSE"}# 授權協議 
+name = "Report_Generator_PY" # 套件名稱 (與 `pip install` 名稱一致)
+readme = "README.md" # 讀取說明文件
+requires-python = ">=3.8" # 支援的 Python 版本
+version = "0.1.0" # 版本號 (Semantic Versioning)
+
+# 📌 [3] 依賴 (會自動安裝)
+dependencies = []
