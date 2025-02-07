@@ -22,13 +22,6 @@ from .ReportGenerator import Report_Export_Single, Do_Excel_Report, Write_2_Exce
     ### Report_Export_Single 
     # This function is used to export a single report and replace the final report with the template file
     # It should have a picture folder, paramter file in the data folder
-    # e.g.
-    # --template/
-    # ----template.xlsx (page name: Report_Template)
-    # --data/
-    # ----parameter.txt 
-    # ----picture/ 
-    # ----final.xlsx (page name: same as the folder name)
     #
     # call function:
     # Report_Export_Single("template/template.xlsx", "data")
